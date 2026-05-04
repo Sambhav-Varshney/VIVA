@@ -1,0 +1,17 @@
+{
+  "name": "secure-blogging-api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "practical viva/src/server.js",
+  "scripts": {
+    "start": "node \"practical viva/src/server.js\""
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.0.0",
+    "joi": "^17.13.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.4.0"
+  }
+}
